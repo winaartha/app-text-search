@@ -1,0 +1,148 @@
+/*navbar*/
+.navbar {
+	background-color: transparent;
+}
+
+.navbar-b {
+	font-size: 30px;
+	color:white;
+	font-family: Vampire one;
+   text-decoration: none;
+   
+}
+
+.nav-link {
+  	margin-top: 10px;
+  	font-family: Vampire one;
+  	font-size: 20px;
+ }
+ /*akhir navbar*/
+
+ /*cari*/
+ .cari{
+ 	margin-top: 100px;
+ }
+ 
+ .cari h1 {
+ 	font-family: Vampire one;
+ 	font-size: 100px;
+ 	background: -webkit-linear-gradient(30deg, #00FF7A, #00BBFF);
+ 	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ }
+  /*akhir cari*/
+
+  /*card*/
+ .card {
+ 	margin-left: 20px;
+   margin-right: 20px;
+ 	margin-top: 20px;
+ 	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .card p{
+ 	margin-left: -100px;
+ }
+ /*akhir card*/
+
+ /*info panel*/
+.info-panel {
+	box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+	border-color: black ;
+  	border-radius: 12px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+   margin-right: 20px;
+   margin-left: 20px;
+   width: 100%;
+	background-color: white;
+	padding: 55px;
+
+} 
+
+
+.info-panel p{
+  	font-size: 16px;
+  	color: #acacac
+  	font-weight: 200px;
+  	margin-top: 10px; 
+  	padding-left: 100px;
+}
+
+
+.info-panel h3{
+  	font-size: 16px;
+  	color: #acacac;
+  	font-weight: 20px;
+  	margin-top: 10px; 
+  	padding-left: 100px;
+  	padding-right: 100px;
+}
+/* akhir info panel*/
+/* Search Keyword */
+.container-search{
+   display: block;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 50px;
+}
+/* Akhir Search Keyword */
+/*box pencarian*/
+.search-box1 {
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 background: white;
+	 height: 40px;
+	 border-radius: 40px;
+	 padding: 10px;
+}
+
+.search-btn1 {
+	 color: #e84118;
+	 float: right;
+	 width: 40px;
+	 height: 40px;
+	 border-radius: 50%;
+	 background: black;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 transition: 0.4s;
+	 color: white;
+	 cursor: pointer;
+	 margin-top: -10px;
+}
+
+.search-txt1 {
+	 border: none;
+	 background: none;
+	 outline: none;
+	 float: left;
+	 padding: 0;
+	 color: black;
+	 font-size: 16px;
+	 transition: 0.4s;
+	 line-height: 40px;
+	 width: 0px;
+	 font-weight: bold;
+	 margin-top: -10px;
+}
+
+.search-box1:hover > .search-txt1 {
+	 width: 240px;
+	 padding: 0 6px;
+}
+
+.search-box1:hover > .search-btn1 {
+	 background: white;
+	 color: black;
+}
+
+.search-btn1 > i {
+ 	font-size: 30px;
+}
+/*akhir box pencarian*/
